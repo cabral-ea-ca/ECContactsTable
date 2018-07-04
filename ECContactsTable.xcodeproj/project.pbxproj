@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF02AE020EC76F80009B20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF02ADF20EC76F80009B20B /* AppDelegate.swift */; };
+		0DF02AE220EC76F80009B20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF02AE120EC76F80009B20B /* ViewController.swift */; };
+		0DF02AE520EC76F80009B20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF02AE320EC76F80009B20B /* Main.storyboard */; };
+		0DF02AE720EC76FD0009B20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF02AE620EC76FD0009B20B /* Assets.xcassets */; };
+		0DF02AEA20EC76FD0009B20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF02AE820EC76FD0009B20B /* LaunchScreen.storyboard */; };
+		0DF02AF520EC76FD0009B20B /* ECContactsTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF02AF420EC76FD0009B20B /* ECContactsTableTests.swift */; };
+		0DF02B0020EC76FD0009B20B /* ECContactsTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF02AFF20EC76FD0009B20B /* ECContactsTableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF02AF120EC76FD0009B20B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF02AD420EC76F80009B20B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DF02ADB20EC76F80009B20B;
+			remoteInfo = ECContactsTable;
+		};
+		0DF02AFC20EC76FD0009B20B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF02AD420EC76F80009B20B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DF02ADB20EC76F80009B20B;
+			remoteInfo = ECContactsTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF02ADC20EC76F80009B20B /* ECContactsTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECContactsTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF02ADF20EC76F80009B20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DF02AE120EC76F80009B20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DF02AE420EC76F80009B20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DF02AE620EC76FD0009B20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DF02AE920EC76FD0009B20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DF02AEB20EC76FD0009B20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF02AF020EC76FD0009B20B /* ECContactsTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECContactsTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF02AF420EC76FD0009B20B /* ECContactsTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECContactsTableTests.swift; sourceTree = "<group>"; };
+		0DF02AF620EC76FD0009B20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF02AFB20EC76FD0009B20B /* ECContactsTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECContactsTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF02AFF20EC76FD0009B20B /* ECContactsTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECContactsTableUITests.swift; sourceTree = "<group>"; };
+		0DF02B0120EC76FD0009B20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DF02AD920EC76F80009B20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF02AED20EC76FD0009B20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF02AF820EC76FD0009B20B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF02AD320EC76F80009B20B = {
+			isa = PBXGroup;
+			children = (
+				0DF02ADE20EC76F80009B20B /* ECContactsTable */,
+				0DF02AF320EC76FD0009B20B /* ECContactsTableTests */,
+				0DF02AFE20EC76FD0009B20B /* ECContactsTableUITests */,
+				0DF02ADD20EC76F80009B20B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DF02ADD20EC76F80009B20B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF02ADC20EC76F80009B20B /* ECContactsTable.app */,
+				0DF02AF020EC76FD0009B20B /* ECContactsTableTests.xctest */,
+				0DF02AFB20EC76FD0009B20B /* ECContactsTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DF02ADE20EC76F80009B20B /* ECContactsTable */ = {
+			isa = PBXGroup;
+			children = (
+				0DF02ADF20EC76F80009B20B /* AppDelegate.swift */,
+				0DF02AE120EC76F80009B20B /* ViewController.swift */,
+				0DF02AE320EC76F80009B20B /* Main.storyboard */,
+				0DF02AE620EC76FD0009B20B /* Assets.xcassets */,
+				0DF02AE820EC76FD0009B20B /* LaunchScreen.storyboard */,
+				0DF02AEB20EC76FD0009B20B /* Info.plist */,
+			);
+			path = ECContactsTable;
+			sourceTree = "<group>";
+		};
+		0DF02AF320EC76FD0009B20B /* ECContactsTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF02AF420EC76FD0009B20B /* ECContactsTableTests.swift */,
+				0DF02AF620EC76FD0009B20B /* Info.plist */,
+			);
+			path = ECContactsTableTests;
+			sourceTree = "<group>";
+		};
+		0DF02AFE20EC76FD0009B20B /* ECContactsTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF02AFF20EC76FD0009B20B /* ECContactsTableUITests.swift */,
+				0DF02B0120EC76FD0009B20B /* Info.plist */,
+			);
+			path = ECContactsTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DF02ADB20EC76F80009B20B /* ECContactsTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF02B0420EC76FD0009B20B /* Build configuration list for PBXNativeTarget "ECContactsTable" */;
+			buildPhases = (
+				0DF02AD820EC76F80009B20B /* Sources */,
+				0DF02AD920EC76F80009B20B /* Frameworks */,
+				0DF02ADA20EC76F80009B20B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECContactsTable;
+			productName = ECContactsTable;
+			productReference = 0DF02ADC20EC76F80009B20B /* ECContactsTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DF02AEF20EC76FD0009B20B /* ECContactsTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF02B0720EC76FD0009B20B /* Build configuration list for PBXNativeTarget "ECContactsTableTests" */;
+			buildPhases = (
+				0DF02AEC20EC76FD0009B20B /* Sources */,
+				0DF02AED20EC76FD0009B20B /* Frameworks */,
+				0DF02AEE20EC76FD0009B20B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF02AF220EC76FD0009B20B /* PBXTargetDependency */,
+			);
+			name = ECContactsTableTests;
+			productName = ECContactsTableTests;
+			productReference = 0DF02AF020EC76FD0009B20B /* ECContactsTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DF02AFA20EC76FD0009B20B /* ECContactsTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF02B0A20EC76FD0009B20B /* Build configuration list for PBXNativeTarget "ECContactsTableUITests" */;
+			buildPhases = (
+				0DF02AF720EC76FD0009B20B /* Sources */,
+				0DF02AF820EC76FD0009B20B /* Frameworks */,
+				0DF02AF920EC76FD0009B20B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF02AFD20EC76FD0009B20B /* PBXTargetDependency */,
+			);
+			name = ECContactsTableUITests;
+			productName = ECContactsTableUITests;
+			productReference = 0DF02AFB20EC76FD0009B20B /* ECContactsTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DF02AD420EC76F80009B20B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ryerson Student";
+				TargetAttributes = {
+					0DF02ADB20EC76F80009B20B = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					0DF02AEF20EC76FD0009B20B = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 0DF02ADB20EC76F80009B20B;
+					};
+					0DF02AFA20EC76FD0009B20B = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 0DF02ADB20EC76F80009B20B;
+					};
+				};
+			};
+			buildConfigurationList = 0DF02AD720EC76F80009B20B /* Build configuration list for PBXProject "ECContactsTable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DF02AD320EC76F80009B20B;
+			productRefGroup = 0DF02ADD20EC76F80009B20B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DF02ADB20EC76F80009B20B /* ECContactsTable */,
+				0DF02AEF20EC76FD0009B20B /* ECContactsTableTests */,
+				0DF02AFA20EC76FD0009B20B /* ECContactsTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DF02ADA20EC76F80009B20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF02AEA20EC76FD0009B20B /* LaunchScreen.storyboard in Resources */,
+				0DF02AE720EC76FD0009B20B /* Assets.xcassets in Resources */,
+				0DF02AE520EC76F80009B20B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF02AEE20EC76FD0009B20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF02AF920EC76FD0009B20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF02AD820EC76F80009B20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF02AE220EC76F80009B20B /* ViewController.swift in Sources */,
+				0DF02AE020EC76F80009B20B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF02AEC20EC76FD0009B20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF02AF520EC76FD0009B20B /* ECContactsTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF02AF720EC76FD0009B20B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF02B0020EC76FD0009B20B /* ECContactsTableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF02AF220EC76FD0009B20B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DF02ADB20EC76F80009B20B /* ECContactsTable */;
+			targetProxy = 0DF02AF120EC76FD0009B20B /* PBXContainerItemProxy */;
+		};
+		0DF02AFD20EC76FD0009B20B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DF02ADB20EC76F80009B20B /* ECContactsTable */;
+			targetProxy = 0DF02AFC20EC76FD0009B20B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DF02AE320EC76F80009B20B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF02AE420EC76F80009B20B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DF02AE820EC76FD0009B20B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF02AE920EC76FD0009B20B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DF02B0220EC76FD0009B20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DF02B0320EC76FD0009B20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DF02B0520EC76FD0009B20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N7238GD4W;
+				INFOPLIST_FILE = ECContactsTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryerson-University.ECContactsTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DF02B0620EC76FD0009B20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N7238GD4W;
+				INFOPLIST_FILE = ECContactsTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryerson-University.ECContactsTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DF02B0820EC76FD0009B20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N7238GD4W;
+				INFOPLIST_FILE = ECContactsTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryerson-University.ECContactsTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECContactsTable.app/ECContactsTable";
+			};
+			name = Debug;
+		};
+		0DF02B0920EC76FD0009B20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N7238GD4W;
+				INFOPLIST_FILE = ECContactsTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryerson-University.ECContactsTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECContactsTable.app/ECContactsTable";
+			};
+			name = Release;
+		};
+		0DF02B0B20EC76FD0009B20B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N7238GD4W;
+				INFOPLIST_FILE = ECContactsTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryerson-University.ECContactsTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ECContactsTable;
+			};
+			name = Debug;
+		};
+		0DF02B0C20EC76FD0009B20B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N7238GD4W;
+				INFOPLIST_FILE = ECContactsTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryerson-University.ECContactsTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ECContactsTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF02AD720EC76F80009B20B /* Build configuration list for PBXProject "ECContactsTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF02B0220EC76FD0009B20B /* Debug */,
+				0DF02B0320EC76FD0009B20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF02B0420EC76FD0009B20B /* Build configuration list for PBXNativeTarget "ECContactsTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF02B0520EC76FD0009B20B /* Debug */,
+				0DF02B0620EC76FD0009B20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF02B0720EC76FD0009B20B /* Build configuration list for PBXNativeTarget "ECContactsTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF02B0820EC76FD0009B20B /* Debug */,
+				0DF02B0920EC76FD0009B20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF02B0A20EC76FD0009B20B /* Build configuration list for PBXNativeTarget "ECContactsTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF02B0B20EC76FD0009B20B /* Debug */,
+				0DF02B0C20EC76FD0009B20B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DF02AD420EC76F80009B20B /* Project object */;
+}
